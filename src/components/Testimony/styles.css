@@ -1,0 +1,35 @@
+.testimony-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top:25px;
+  margin-bottom: 50px;
+}
+.testimony-header h2 {
+  color: #913a66;
+  font-size: 3rem;
+  font-family: "Ovo", sans-serif;
+  font-weight: normal;
+}
+
+.testimony-separator {
+  border-top: 1px solid #333;
+  width: 50%;
+  height: 1px;
+  display: block;
+  
+  margin-top: 0.5rem;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.testimony-cards-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+}

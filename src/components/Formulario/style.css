@@ -1,0 +1,53 @@
+.containerForm{
+    width: 20vw;
+    background-color: white;
+}
+
+.landPageForm{
+    width: 18vw;
+    background-color: rgba(100,0,0,0.2);
+    color: white;
+    padding: 0 1vw;
+    color: #913a66;
+    text-align: center;
+    padding: 2vw 0;
+}
+
+.landPageForm h2{
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+
+.landPageForm p{
+    padding-bottom: 0.5vh;
+}
+
+.landPageForm form{
+    display: block;
+    width: 100%;
+    padding-top: 1vh;
+}
+
+.landPageForm form input{
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.landPageForm form input:focus{
+    background-color: rgba(100,0,0, 0.1);
+    color: white;
+}
+
+.landPageForm form button{
+    width: 80%;
+    background-color: rgb(100,0,0);
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+}

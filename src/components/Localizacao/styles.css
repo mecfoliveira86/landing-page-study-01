@@ -1,0 +1,36 @@
+.Localizacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(100,0,0,0.2);
+  padding:2vh;
+}
+
+#text-localizacao {
+  color: #913a66;
+  font-size: 54px;
+  font-family: "Ovo", Sans-serif;
+  font-weight: normal;
+}
+
+.info-localizacao {
+  margin-top: 50px;
+  font-size: 15px;
+  color: #555555;
+}
+
+.dados {
+  margin-top: 10px;
+}
+
+.mapa {
+  margin-left: 30px;
+}
+
+#img-mapa {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  border: 5px solid #913a66;
+}

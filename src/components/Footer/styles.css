@@ -1,0 +1,58 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: inline-flex;
+  bottom: 0;
+  width: 100vw;
+  height: 15vh;
+  background-color: #913a66;
+  color:#fff;
+}
+.logoFooter {
+  top:0px;
+  width: 20vw;
+  align-self: center;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+}
+.technicalData {
+  width: 60vw;
+  align-self: center;
+  color:#fff;
+}
+
+.technicalData p{
+  text-align: center;
+}
+
+.footer__social {
+  width: 15vw;
+  align-self: center;
+  float: right;
+}
+
+.logoSocialMedia{
+  width: 20%;
+  display:inline-flex;
+}
+
+.logoSocialMedia a{
+  padding: 25%
+}
+
+.logoSocialMedia:hover{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.footer__social p{
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1vh;
+}
